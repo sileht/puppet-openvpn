@@ -28,9 +28,6 @@ cipher <%= @cipher %>
 <% if @tls_cipher -%>
 tls-cipher <%= @tls_cipher %>
 <% end -%>
-<% if @mute_replay_warnings -%>
-mute-replay-warnings
-<% end -%>
 ns-cert-type server
 <% if @sndbuf -%>
 sndbuf <%= @sndbuf %>
